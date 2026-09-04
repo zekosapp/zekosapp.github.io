@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Coğrafya Destek</title>
+  <meta name="description" content="Coğrafya uygulaması destek ve iletişim sayfası.">
+  <style>
+    :root{
+      --bg:#07111f;
+      --card:#0d1d33;
+      --card2:#122640;
+      --text:#f4f7fb;
+      --muted:#b9c5d6;
+      --accent:#2d8cff;
+      --gold:#f4b72f;
+      --border:#28405f;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      background:linear-gradient(180deg,#07111f 0%,#09182a 100%);
+      color:var(--text);
+      line-height:1.6;
+    }
+    .wrap{max-width:900px;margin:0 auto;padding:40px 20px 64px}
+    .hero{
+      background:linear-gradient(135deg,#0e2b4d,#0b1d34);
+      border:1px solid var(--border);
+      border-radius:22px;
+      padding:28px;
+      margin-bottom:22px;
+    }
+    h1{margin:0 0 8px;font-size:34px}
+    h2{margin:0 0 12px;font-size:22px}
+    p{margin:8px 0;color:var(--muted)}
+    .badge{
+      display:inline-block;
+      margin-top:10px;
+      padding:7px 12px;
+      border-radius:999px;
+      background:#143961;
+      color:#dcecff;
+      font-size:14px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:18px;
+      padding:22px;
+      margin:16px 0;
+    }
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media(max-width:700px){.row{grid-template-columns:1fr}}
+    a{color:#72b8ff;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .button{
+      display:inline-block;
+      margin-top:10px;
+      padding:11px 16px;
+      border-radius:12px;
+      background:var(--accent);
+      color:white;
+      font-weight:700;
+      text-decoration:none;
+    }
+    ul{padding-left:22px;color:var(--muted)}
+    li{margin:7px 0}
+    .note{
+      padding:14px 16px;
+      border-left:4px solid var(--gold);
+      background:var(--card2);
+      border-radius:10px;
+      color:var(--muted);
+    }
+    footer{
+      margin-top:30px;
+      color:#8494a9;
+      font-size:14px;
+      text-align:center;
+    }
+    code{
+      background:#071522;
+      border:1px solid #1c3550;
+      padding:2px 6px;
+      border-radius:6px;
+      color:#dbeafe;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>🌍 Coğrafya Destek</h1>
+      <p>Coğrafya uygulamasıyla ilgili yardım, geri bildirim ve teknik destek için bu sayfayı kullanabilirsiniz.</p>
+      <span class="badge">KPSS • YKS • Türkiye Coğrafyası</span>
+    </section>
+
+    <div class="row">
+      <section class="card">
+        <h2>📩 Destek ve İletişim</h2>
+        <p>Uygulamada bir hata, yanlış bilgi veya kullanım sorunu fark ederseniz bize bildirebilirsiniz.</p>
+        <p><strong>Destek e-postası:</strong><br>
+        <a href="mailto:DESTEK_EPOSTASI_BURAYA">DESTEK_EPOSTASI_BURAYA</a></p>
+        <p>Mesajınıza mümkünse cihaz modelinizi, iOS/Android sürümünüzü ve sorunu gösteren ekran görüntüsünü ekleyin.</p>
+      </section>
+
+      <section class="card">
+        <h2>🔒 Gizlilik</h2>
+        <p>Coğrafya uygulamasının gizlilik politikasını aşağıdaki bağlantıdan inceleyebilirsiniz.</p>
+        <a class="button" href="https://zekosapp.github.io/privacy.html">Gizlilik Politikasını Aç</a>
+      </section>
+    </div>
+
+    <section class="card">
+      <h2>👑 Premium Satın Alma</h2>
+      <ul>
+        <li>Premium, tek seferlik satın alımdır.</li>
+        <li>Premium içerikleri açar ve reklamları kaldırır.</li>
+        <li>Satın alma işlemleri Google Play veya Apple App Store tarafından işlenir.</li>
+        <li>Yeni cihazda aynı mağaza hesabını kullanıyorsanız uygulamadaki <strong>“Satın alımı geri yükle”</strong> seçeneğini kullanabilirsiniz.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>🗺️ İçerik ve Bilgi Bildirimi</h2>
+      <p>Coğrafya içerikleri eğitim amacıyla özenle hazırlanır ve kontrol edilir. Buna rağmen olası bilgi, yazım veya güncellik hataları bulunabilir.</p>
+      <div class="note">
+        Yanlış veya güncelliğini yitirmiş bir bilgiye rastlarsanız konu adını ve mümkünse ekran görüntüsünü destek e-postamıza gönderin. Bildirilen içerikler incelenerek gerekli düzeltmeler yapılır.
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>🛠️ Sık Karşılaşılan Sorunlar</h2>
+      <ul>
+        <li><strong>Harita veya içerik görünmüyor:</strong> Uygulamayı tamamen kapatıp yeniden açın.</li>
+        <li><strong>Premium görünmüyor:</strong> Mağaza hesabınızı kontrol edip “Satın alımı geri yükle” seçeneğini deneyin.</li>
+        <li><strong>Reklamla ilgili sorun:</strong> İnternet bağlantınızı kontrol edin ve uygulamayı yeniden başlatın.</li>
+        <li><strong>Soru veya bilgi hatası:</strong> Konu adını ve ekran görüntüsünü bize iletin.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>ℹ️ Uygulama Hakkında</h2>
+      <p>Coğrafya; Türkiye coğrafyasını interaktif haritalar, bilgi kartları, KPSS/YKS ipuçları ve sorularla çalışmaya yardımcı olan bir eğitim uygulamasıdır.</p>
+    </section>
+
+    <footer>
+      © 2026 Coğrafya • Tüm hakları saklıdır.
+    </footer>
+  </main>
+</body>
+</html>
